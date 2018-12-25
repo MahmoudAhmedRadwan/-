@@ -1,0 +1,382 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    direction: rtl;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:15px;
+    background-color: #F2F2F2;
+}
+
+nav{
+    background-color:#4E4D4D;
+    height:35px;
+    overflow: hidden;
+}
+
+nav span{
+    color:#fff;
+    
+    font-weight: bold;
+    float:right;
+    background-color:black;
+    padding:5px 25px 0 50px;
+    height:80px;
+    position: relative;
+    right:40px;
+}
+
+nav .contact{
+    float: right;
+    margin-right:50px;
+}
+
+nav .contact li{
+    float: left;
+    list-style: none;
+}
+
+nav .contact li a{
+    color:rgba(221, 221, 221, 0.836);
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    padding: 4px 16px 7px 21px;
+}
+
+nav .contact li:hover{
+    background-color:#000;
+}
+
+nav .icon{
+    float: right;
+    margin-right:50px;
+}
+
+nav .icon li{
+    float: left;
+    list-style: none;
+}
+
+nav .icon li a{
+    color:#DDD;
+    display: block;
+    padding: 0px 11px 7px 10px;
+}
+
+
+nav .logos{
+    float: right;
+    margin-right: 250px;
+}
+
+nav .logos li{
+    float: left;
+    list-style: none;
+    border-left: 1px solid #000;
+    
+    
+}
+
+nav .logos li:last-child{
+    border-right:1px solid #000;
+    
+}
+
+nav .logos li a{
+    color:#DDD;
+    display: block;
+    padding:6px 12px 5px 15px;
+}
+
+nav .logos li:hover,
+nav .icon li:hover{
+
+    transition: 1s;
+    background-color:#000;
+}
+
+
+/* end of nav bar*/
+
+
+/* start header */
+
+header{
+    background-color:rgb(255, 255, 255);
+    height:110px;
+    width:100%;
+}
+
+header img{
+    float: right;
+    width: 289px;
+    height: 94px;
+    margin-right: 85px;
+    padding-top: 20px;
+}
+
+/* end header */
+
+/* start menu */
+
+.menu{
+    width:100%;
+    height:50px;
+    border-top:1px solid rgba(196, 196, 196, 0.87);
+    border-bottom:1px solid rgba(196, 196, 196, 0.87);
+    
+    
+}
+
+.menu ul{
+    float:right;
+    margin-right:61px;
+}
+
+.menu ul li{
+    float: left;
+    list-style: none;
+    border-right: 1px solid  rgba(196, 196, 196, 0.87);
+    
+    
+}
+
+.menu ul li a{
+    text-decoration: none;
+    padding-left:20px;
+    color:black;
+    font-weight: bolder;
+    display: block;
+    padding: 12px 16px 11px 20px;
+    
+}
+.menu ul li .one{
+    border-bottom: 3px solid red;
+}
+
+.menu ul li .two{
+    border-bottom: 3px solid blue;
+}
+.menu ul li .three{
+    border-bottom: 3px solid #DD9933;
+}
+.menu ul li .four{
+    border-bottom: 3px solid green;
+}
+.menu ul li .five{
+    border-bottom: 3px solid #E560E1;
+}
+
+.menu ul li .six{
+    border-bottom: 3px solid #E0E0E0;
+}
+
+.container{
+    max-width:100%;
+    
+    height:auto;
+    
+}
+
+.right{
+    width: 60%;
+    height:3429px;
+    float: right;
+    background-color:rgb(255, 255, 255);
+    margin-right:45px;
+
+}
+
+.right .pics{
+    max-width: 95%;
+    margin:0 auto;
+    margin-top:16px;
+}
+
+
+
+
+
+
+.album{
+    max-width: 95%;
+    height:580px;
+    background-color: #FFFFFF;
+    margin:0 auto;
+    margin-top:20px;
+    border: 1px solid rgba(196, 196, 196, 0.87); 
+    overflow: hidden;
+}
+
+
+/* making the albums */
+.album .head{
+    max-width: 100%;
+    height:39px;
+    background-color:#E560E1;
+}
+
+.album .head h3{
+    text-align: right;
+    padding:2px 22px 0 0;
+    color:rgb(255, 255, 255);
+}
+
+.album .news1{
+    width:33.33%;
+    height:43%;
+    border:0.5px solid rgba(196, 196, 196, 0.87);
+    float: left;
+}
+
+/* end of making albums */
+
+/* start section 2 */
+
+.album .head-two{
+    background-color:#538729;
+}
+
+/* end of section 2 */
+
+
+.album .news1 a{
+    color:rgb(95, 95, 233);
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+     
+}
+
+.album a:hover{
+    color:#AF000E;
+}
+
+.album .news1 img{
+    width:92%;
+    height:53%;
+    margin:8px 8px 0 9px;
+}
+
+.album .news1 .link-1{
+    margin:10px 0 0 31px;
+}
+
+
+.album .news1 a{
+    color:#000;
+    font-size:16px;
+    text-align: right;
+    float: left;
+}
+
+.album .news1 a:hover{
+    color:#AF000E;
+}
+
+.album .news1 .time{
+    margin: 62px 10px 0 0;
+}
+
+.album .news1 .time ion-icon{
+    float: right;
+    color:#CDCDCD;
+}
+
+.album .news1 .time p{
+    display: inline;
+    float: right;
+    color:#CDCDCD;
+}
+
+
+
+.left{
+    width:30%;
+    height:800px;
+    float: left;
+    margin-left: 58px;
+    
+}
+
+.left .social{
+    background-color:#E9E9E9;
+    max-width: 100%;
+    height:150px;
+    background-color:#F2F2F2;
+    border: 1px solid rgba(196, 196, 196, 0.87);
+}
+
+.left .social .headline{
+    max-width: 100%;
+    height:45px;
+    background-color: #E9E9E9;
+    
+}
+
+.left .social .headline h2{
+    text-align: right;
+    font-size: 23px;
+    font-weight: bolder;
+    padding:8px 18px 0 0;
+}
+.left .social ul{
+    float :right;
+    margin-right: 62px;
+    
+}
+.left .social ul li{
+    list-style: none;
+    float: left;
+    padding: 33px 15px 0 0;
+    
+}
+
+.left .social ul li a img{
+    width:33px;
+    height:32px;
+}
+
+.left .most{
+    max-width: 100%;
+    height:500px;
+    background-color: #F2F2F2;
+    border: 1px solid rgba(196, 196, 196, 0.87);
+    margin-top:40px;
+    
+}
+
+.left .most .the-most{
+    max-width: 100%;
+    height:50px;
+    background-color: #E9E9E9;
+}
+
+.left .most .the-most h2{
+    text-align: right;
+    padding:8px 20px 0 0;
+    font-weight: bolder;
+    font-size: 27px;
+}
+
+
+footer{
+    background-color:#000000;
+    width:100%;
+    height:300px;
+    display: inline-block;
+    margin-top: 21px;
+}
+
+footer .cover{
+    background-color:#262626;
+    width:100%;
+    height:85%;
+    margin-top:4px;
+}
+
+
+
