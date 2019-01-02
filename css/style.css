@@ -63,7 +63,7 @@ nav .icon li{
 nav .icon li a{
     color:#DDD;
     display: block;
-    padding: 0px 11px 7px 10px;
+    padding: 7px 11px 5px 10px;
 }
 
 
@@ -86,10 +86,11 @@ nav .logos li:last-child{
 }
 
 nav .logos li a{
-    color:#DDD;
+    color: #DDD;
     display: block;
-    padding:6px 12px 5px 15px;
+    padding: 7px 12px 6px 15px;
 }
+
 
 nav .logos li:hover,
 nav .icon li:hover{
@@ -232,28 +233,6 @@ header img{
     float: left;
 }
 
-/* end of making albums */
-
-/* start section 2 */
-
-.album .head-two{
-    background-color:#538729;
-}
-
-/* end of section 2 */
-
-
-.album .news1 a{
-    color:rgb(95, 95, 233);
-    font-size: 20px;
-    font-weight: bold;
-    text-decoration: none;
-     
-}
-
-.album a:hover{
-    color:#AF000E;
-}
 
 .album .news1 img{
     width:92%;
@@ -261,24 +240,49 @@ header img{
     margin:8px 8px 0 9px;
 }
 
-.album .news1 .link-1{
-    margin:10px 0 0 31px;
+.album .show-more{
+    margin:503px 0 0 260px;
+    
 }
 
+.album .show-more a{
+    font-size: 19px;
+    font-weight: bolder;
+    text-decoration: none;
+    transition: color 0.3s;
+}
 
-.album .news1 a{
+.album .show-more a:hover{
+    color:#AF000E;
+}
+/* end of making albums */
+
+.album .news1 .link{
+    width: 92%;
+    height:22%;
+    margin:5px 10px 0 0;
+    text-align: right;
+        
+}
+
+.album .news1 .link a{
+    text-decoration: none;
     color:#000;
     font-size:16px;
-    text-align: right;
-    float: left;
+    font-weight: bold;
+    transition: color 0.3s;
+    
 }
 
-.album .news1 a:hover{
-    color:#AF000E;
+.album .news1 .link a:hover{
+    color:red;
 }
 
 .album .news1 .time{
-    margin: 62px 10px 0 0;
+    
+    width:92%;
+    height:30px;
+    margin:6px 9px 0 0;
 }
 
 .album .news1 .time ion-icon{
@@ -292,7 +296,37 @@ header img{
     color:#CDCDCD;
 }
 
+/* start section 2 */
 
+.album .head-two{
+    background-color:#538729;
+}
+
+/* end of section 2 */
+
+/* start section 3 */
+
+.album .head-three{
+    background-color:#DD9933;
+}
+
+/* end of section 4 */
+.album .head-four{
+    background-color:#152496;
+}
+
+/* end of section 4 */
+
+/* end of section 5 */
+.album .head-five{
+    background-color:#DB0011;
+}
+
+/* end of section 5 */
+
+
+
+/* start side bar */
 
 .left{
     width:30%;
@@ -362,6 +396,22 @@ header img{
     font-size: 27px;
 }
 
+.most .the-most-watched{
+    width:90%;
+    height:12%;
+    color:#000;
+    margin: 11px 16px 0 0;
+    text-align: right;
+    border-bottom:1px solid #DDD;
+}
+
+.most .the-most-watched a{
+    color:#AF000E;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* start footer */
 
 footer{
     background-color:#000000;
@@ -378,5 +428,45 @@ footer .cover{
     margin-top:4px;
 }
 
+footer .cover .etfrag{
+    float: right;
+    background-color:gray;
+    margin: 19px 70px 0 0;
+    height:90%;
+    width:10%;
+    white-space: nowrap;
+}
 
+footer .cover .etfrag h3{
+    color:#DDD;
+    margin: 5px 0 18px 46px ;
+    font-weight: bold;
+    float: right;
+    font-size: 24px;
+}
+
+footer .cover .etfrag ul{
+    text-align: right;
+    
+}
+
+footer .cover .etfrag ul li{
+    list-style: none;
+    
+    
+}
+
+footer .cover .etfrag ul li a{
+    color:#DDD;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+
+footer p{
+    float: right;
+    margin: 5px 17px 0 0 ;
+    color:rgb(255, 255, 255);
+}
+/* end of footer */
 
