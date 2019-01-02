@@ -428,21 +428,105 @@ footer .cover{
     margin-top:4px;
 }
 
+hr{
+    color:rgb(255, 255, 255);
+}
+
+footer .cover .etfrag{
+    width:14%;
+    height:88%;
+    float: right;
+    margin: 11px 18px 0 0;
+}
+
+footer .cover .etfrag .top{
+    width: 100%;
+    height: 20%;
+    overflow: hidden;
+    
+}
+
+footer .cover .etfrag .top h3{
+    float: right;
+    font-size: 26px;
+    color:rgb(255, 255, 255);
+}
+
+footer .cover .etfrag .under{
+    height:60%;
+    width:80%;
+    margin: 2px 12px 0 0;
+}
+
+footer .cover .etfrag .under ul{
+    float: right;
+}
+
+footer .cover .etfrag .under ul li{
+    list-style: none;
+}
+
+footer .cover .etfrag .under ul li a{
+    float: right;
+    text-decoration: none;
+    font-size: 17px;
+    line-height: 41px;
+    color:rgb(255, 255, 255);
+    transition: color 0.5s;
+    border-bottom: 1px solid black;
+    padding: 0 0 0 54px; 
+}
+
+footer .cover .etfrag .under ul li a:hover{
+    color:red;
+}
+
+
+
+
+
+
+
+
+
+footer p{
+    float: right;
+    margin: 5px 17px 0 0 ;
+    color:rgb(255, 255, 255);
+}
+
+
+
+
+/*
 footer .cover .etfrag{
     float: right;
     background-color:gray;
     margin: 19px 70px 0 0;
     height:90%;
     width:10%;
+    
+}
+
+footer .cover .etfrag .top{
+    width:100%;
+    height: auto;
+    background-color:red;
     white-space: nowrap;
 }
 
-footer .cover .etfrag h3{
+footer .cover .etfrag .top h3{
     color:#DDD;
     margin: 5px 0 18px 46px ;
     font-weight: bold;
     float: right;
     font-size: 24px;
+}
+
+footer .cover .etfrag .dwon{
+    max-width: 100%;
+    height:auto;
+    background: #538729;
 }
 
 footer .cover .etfrag ul{
